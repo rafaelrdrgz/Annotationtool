@@ -1,0 +1,99 @@
+[
+  {
+    "id": "test_001",
+    "text": "According to a landmark study published in the Lancet, rehabilitation programmes reduce reoffending rates by up to 30%. The government argues this justifies increased investment in prison reform, citing long-term economic savings that outweigh initial costs. Critics maintain that offenders deserve punishment proportional to their crimes, regardless of whether rehabilitation is cost-effective. Ministry officials emphasise that the economic savings alone make the programme worthwhile, projecting a net benefit of £2.1 billion over the next decade.",
+    "sentences": [
+      "According to a landmark study published in the Lancet, rehabilitation programmes reduce reoffending rates by up to 30%.",
+      "The government argues this justifies increased investment in prison reform, citing long-term economic savings that outweigh initial costs.",
+      "Critics maintain that offenders deserve punishment proportional to their crimes, regardless of whether rehabilitation is cost-effective.",
+      "Ministry officials emphasise that the economic savings alone make the programme worthwhile, projecting a net benefit of £2.1 billion over the next decade."
+    ],
+    "source": "The Guardian",
+    "article_title": "Prison Reform: The Case for Investment",
+    "date": "2024-11-15"
+  },
+  {
+    "id": "test_002",
+    "text": "Neuroscientists at Cambridge have identified specific neural pathways that correlate with violent behaviour, suggesting that aggression is fundamentally a brain-based phenomenon. The research team argues that these findings could revolutionise criminal sentencing by providing objective biological markers for risk assessment. However, several ethicists have cautioned that reducing human behaviour to neural activity ignores the irreducible complexity of moral agency and the lived experience of individuals navigating difficult circumstances.",
+    "sentences": [
+      "Neuroscientists at Cambridge have identified specific neural pathways that correlate with violent behaviour, suggesting that aggression is fundamentally a brain-based phenomenon.",
+      "The research team argues that these findings could revolutionise criminal sentencing by providing objective biological markers for risk assessment.",
+      "However, several ethicists have cautioned that reducing human behaviour to neural activity ignores the irreducible complexity of moral agency and the lived experience of individuals navigating difficult circumstances."
+    ],
+    "source": "The Atlantic",
+    "article_title": "The Neuroscience of Crime",
+    "date": "2024-09-22"
+  },
+  {
+    "id": "test_003",
+    "text": "The proposed healthcare legislation would guarantee universal coverage as a fundamental right of every citizen, regardless of their ability to pay. Proponents argue that access to healthcare is not a privilege to be earned but an entitlement that flows from basic human dignity. Opponents counter that the policy would cost taxpayers an additional £45 billion annually and produce worse outcomes than the current market-based system, pointing to wait times in countries with socialised medicine.",
+    "sentences": [
+      "The proposed healthcare legislation would guarantee universal coverage as a fundamental right of every citizen, regardless of their ability to pay.",
+      "Proponents argue that access to healthcare is not a privilege to be earned but an entitlement that flows from basic human dignity.",
+      "Opponents counter that the policy would cost taxpayers an additional £45 billion annually and produce worse outcomes than the current market-based system, pointing to wait times in countries with socialised medicine."
+    ],
+    "source": "The Economist",
+    "article_title": "Universal Healthcare: Rights vs Reality",
+    "date": "2024-10-03"
+  },
+  {
+    "id": "test_004",
+    "text": "Western nations have no moral authority to impose their standards of human rights on societies with fundamentally different cultural traditions and values. What counts as a right in London or Washington may have no meaningful equivalent in communities where collective harmony and family obligation take precedence over individual autonomy. The universalist position, its critics argue, is itself a culturally specific product of Enlightenment liberalism rather than a timeless truth.",
+    "sentences": [
+      "Western nations have no moral authority to impose their standards of human rights on societies with fundamentally different cultural traditions and values.",
+      "What counts as a right in London or Washington may have no meaningful equivalent in communities where collective harmony and family obligation take precedence over individual autonomy.",
+      "The universalist position, its critics argue, is itself a culturally specific product of Enlightenment liberalism rather than a timeless truth."
+    ],
+    "source": "The Atlantic",
+    "article_title": "The Limits of Universal Rights",
+    "date": "2024-08-17"
+  },
+  {
+    "id": "test_005",
+    "text": "The Prime Minister announced yesterday that the new infrastructure bill will allocate £12 billion for road improvements across the Midlands. Construction is expected to begin in the spring of 2026, with the first phase targeting the M6 corridor. The Department for Transport confirmed that contractors have already been shortlisted and environmental impact assessments are underway.",
+    "sentences": [
+      "The Prime Minister announced yesterday that the new infrastructure bill will allocate £12 billion for road improvements across the Midlands.",
+      "Construction is expected to begin in the spring of 2026, with the first phase targeting the M6 corridor.",
+      "The Department for Transport confirmed that contractors have already been shortlisted and environmental impact assessments are underway."
+    ],
+    "source": "BBC News",
+    "article_title": "Midlands Infrastructure Spending Announced",
+    "date": "2024-12-01"
+  },
+  {
+    "id": "test_006",
+    "text": "Our schools have abandoned the cultivation of character in favour of narrow skills training and exam preparation. A truly educated person is not merely someone who can pass tests but someone who has developed the virtues of intellectual courage, compassion, and integrity that make for a good human life. We need leaders in education who exemplify these qualities themselves, not bureaucrats obsessed with league tables and measurable outcomes.",
+    "sentences": [
+      "Our schools have abandoned the cultivation of character in favour of narrow skills training and exam preparation.",
+      "A truly educated person is not merely someone who can pass tests but someone who has developed the virtues of intellectual courage, compassion, and integrity that make for a good human life.",
+      "We need leaders in education who exemplify these qualities themselves, not bureaucrats obsessed with league tables and measurable outcomes."
+    ],
+    "source": "The Guardian",
+    "article_title": "Opinion: Reclaiming Character in Education",
+    "date": "2024-07-29"
+  },
+  {
+    "id": "test_007",
+    "text": "Personal responsibility must remain the cornerstone of welfare policy. Individuals are rational agents capable of making their own decisions about employment, savings, and lifestyle, and government intervention that removes the consequences of poor choices only encourages dependency. The free market, imperfect as it is, remains the best mechanism for allowing individuals to pursue their own conception of the good life without interference from the state.",
+    "sentences": [
+      "Personal responsibility must remain the cornerstone of welfare policy.",
+      "Individuals are rational agents capable of making their own decisions about employment, savings, and lifestyle, and government intervention that removes the consequences of poor choices only encourages dependency.",
+      "The free market, imperfect as it is, remains the best mechanism for allowing individuals to pursue their own conception of the good life without interference from the state."
+    ],
+    "source": "The Economist",
+    "article_title": "The Case Against Welfare Expansion",
+    "date": "2024-06-14"
+  },
+  {
+    "id": "test_008",
+    "text": "The social fabric of our communities is being torn apart by decades of reckless individualism. We have responsibilities to one another that go beyond mere contractual obligations: duties to our neighbours, to our traditions, and to the shared way of life that gives our existence meaning. Strong families and vibrant local institutions are the foundation of a healthy society, and public policy must be redirected to sustain these communal bonds rather than treating citizens as isolated consumers.",
+    "sentences": [
+      "The social fabric of our communities is being torn apart by decades of reckless individualism.",
+      "We have responsibilities to one another that go beyond mere contractual obligations: duties to our neighbours, to our traditions, and to the shared way of life that gives our existence meaning.",
+      "Strong families and vibrant local institutions are the foundation of a healthy society, and public policy must be redirected to sustain these communal bonds rather than treating citizens as isolated consumers."
+    ],
+    "source": "The Guardian",
+    "article_title": "Beyond Individualism: A Communitarian Vision",
+    "date": "2024-05-20"
+  }
+]

@@ -1,0 +1,123 @@
+{
+  "domains": [
+        {
+      "name": "Exclusion Categories",
+      "colour": "#FEE2E2",
+      "border_colour": "#EF4444",
+      "categories": [
+        {
+          "id": "insufficient_philosophical_content",
+          "name": "Insufficient Philosophical Content",
+          "description": "Passage lacks any philosophical content or sufficient load-bearing philosophical presuppositions.",
+          "markers": []
+        },
+        {
+          "id": "insufficient_context",
+          "name": "Insufficient Context",
+          "description": "Passage lacks sufficient context to reliably identify philosophical presuppositions. Multiple interpretations are equally plausible without additional context.",
+          "markers": []
+        }
+      ]
+    },
+    {
+      "name": "Metaphysical Presuppositions",
+      "colour": "#DBEAFE",
+      "border_colour": "#3B82F6",
+      "categories": [
+        {
+          "id": "physicalism_naturalism",
+          "name": "Physicalism and Naturalism",
+          "description": "The view that everything supervenes on the physical; reality conforms entirely to what physics describes. Naturalism holds reality contains no supernatural entities and scientific methods provide our theoretical understanding.",
+          "markers": ["nothing but", "merely", "just", "reducible to", "explained by", "brain disease", "chemical imbalance", "genetic basis", "neural", "biochemical"]
+        },
+        {
+          "id": "anti_reductionism",
+          "name": "Anti-Reductionism",
+          "description": "Some phenomena (consciousness, meaning, intentionality, normativity, value) resist reduction to physical description. Dualism holds mind and body are fundamentally distinct kinds.",
+          "markers": ["transcends", "irreducible to", "cannot be explained by", "goes beyond", "inner life", "what it's like", "whole person", "human dignity beyond"]
+        },
+        {
+          "id": "determinism_free_will",
+          "name": "Determinism and Free Will",
+          "description": "Determinism: every event is necessitated by prior events and laws of nature. Free will: agents have capacity to be ultimate source of their actions. Compatibilism holds both can be consistent.",
+          "markers": ["caused by", "shaped by", "product of", "result of", "chose to", "decided to", "freely", "could have done otherwise", "responsible for", "deserves", "blameworthy"]
+        }
+      ]
+    },
+    {
+      "name": "Epistemological Presuppositions",
+      "colour": "#D1FAE5",
+      "border_colour": "#10B981",
+      "categories": [
+        {
+          "id": "empiricism",
+          "name": "Empiricism",
+          "description": "Knowledge about the world comes entirely from sense experience. All justification must ultimately trace to evidence. Rejects innate knowledge.",
+          "markers": ["according to a study", "the data show", "no scientific evidence", "research tells us", "evidence-based", "measurable outcomes", "empirical support", "unproven"]
+        },
+        {
+          "id": "rationalism",
+          "name": "Rationalism",
+          "description": "Significant knowledge is gained through reason, independent of experience. Some propositions are knowable by intellectual intuition or deduction.",
+          "markers": ["reason dictates", "logic requires", "rational necessity", "must be", "necessarily", "self-evident", "any rational person", "by definition", "natural law"]
+        },
+        {
+          "id": "relativism_objectivism",
+          "name": "Relativism and Objectivism",
+          "description": "Relativism: truth, right/wrong, standards of reasoning are products of contextual frameworks. Objectivism: these norms are universal and mind-independent.",
+          "markers": ["true for them", "in their culture", "depends on perspective", "socially constructed", "objectively true", "universal principles", "moral progress", "applies everywhere"]
+        }
+      ]
+    },
+    {
+      "name": "Ethical Presuppositions",
+      "colour": "#FEF3C7",
+      "border_colour": "#F59E0B",
+      "categories": [
+        {
+          "id": "consequentialism",
+          "name": "Consequentialism",
+          "description": "An act is morally right if it produces the best overall outcome. Morally correct actions are defined by their relationship to good outcomes. Features maximisation, aggregation, and forward-looking assessment.",
+          "markers": ["will lead to", "would result in", "would produce", "cost-benefit", "effectiveness", "outcomes", "lesser evil", "what works", "impact assessment"]
+        },
+        {
+          "id": "deontology",
+          "name": "Deontology",
+          "description": "Certain actions are right or wrong regardless of consequences, based on conformity to moral rules, duties, or principles. What is 'Right' is prior to the 'Good'.",
+          "markers": ["right to", "inviolable", "inalienable", "violate", "entitlement", "always", "never", "regardless of consequences", "dignity", "autonomy", "consent"]
+        },
+        {
+          "id": "virtue_ethics",
+          "name": "Virtue Ethics",
+          "description": "Virtues and moral character are fundamental. Virtues are excellent traits of character. Practical wisdom is the ability to recognise appropriate responses. Flourishing (eudaimonia) is the good human life.",
+          "markers": ["character", "integrity", "who someone is", "admirable", "exemplary", "noble", "virtuous", "what kind of person", "moral education", "good character"]
+        }
+      ]
+    },
+    {
+      "name": "Political-Philosophical Presuppositions",
+      "colour": "#EDE9FE",
+      "border_colour": "#8B5CF6",
+      "categories": [
+        {
+          "id": "individualism",
+          "name": "Individualism",
+          "description": "Individuals are the basic, morally primary units of political analysis. Individual autonomy should be prioritised. Legitimate institutions secure liberties and resources for freely chosen lives.",
+          "markers": ["rational actors", "free choice", "voluntary exchange", "consumer choice", "autonomy", "individuals should decide", "freedom to make mistakes", "personal responsibility"]
+        },
+        {
+          "id": "communitarianism",
+          "name": "Communitarianism",
+          "description": "Human identities are shaped by communities. Community bonds and collective obligations should be emphasised. Standards of justice found in traditions of particular societies.",
+          "markers": ["we", "our community", "as a society", "our shared", "solidarity", "our traditions", "cultural inheritance", "civic duty", "mutual obligations", "way of life"]
+        },
+        {
+          "id": "state_neutrality_perfectionism",
+          "name": "State Neutrality and Perfectionism",
+          "description": "Whether the state should promote substantive conceptions of the good life (perfectionism) or remain neutral. Neutrality: state shouldn't promote the good without consent. Perfectionism: promotion of the good is morally consistent.",
+          "markers": ["harm principle", "separation of church and state", "free to define", "cultural excellence", "cultivate virtue", "encourage marriage", "degrades human life"]
+        }
+      ]
+    }
+  ]
+}
