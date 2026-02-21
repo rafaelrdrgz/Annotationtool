@@ -27,13 +27,12 @@ def main():
     spreadsheet = client.open_by_key(secrets["spreadsheet_key"])
     print(f"Connected: {spreadsheet.title}")
 
-    # get all passage ids
+
     passages_sheet = spreadsheet.worksheet("passages")
     all_passages = passages_sheet.get_all_records()
     all_ids = [str(r["id"]) for r in all_passages]
     print(f"Total passages: {len(all_ids)}")
 
-    # check what Test_001 already has
     asgn_sheet = spreadsheet.worksheet("assignments")
     rows = asgn_sheet.get_all_records()
     existing = {r["passage_id"] for r in rows if r["annotator_id"] == "Test_001"}
@@ -46,7 +45,6 @@ def main():
     else:
         chosen = random.sample(available, 10)
 
-    # append rows
     new_rows = [["Test_001", pid, "core"] for pid in chosen]
     asgn_sheet.append_rows(new_rows)
     print(f"\nAssigned {len(chosen)} passages to Test_001:")

@@ -646,6 +646,27 @@ def render_sidebar(annotator, done=None, total=None):
             st.rerun()
 
 
+# Tutorial  
+def show_tutorial_section():
+    with st.expander("How do I use this Site?", expanded=False):
+        st.markdown("""
+        **How to Annotate:**
+        1. Consider which categories (on the right) can be validly seen anywhere in this passage
+        2. Select each category present and then select one or more sentences that imply this category
+             (S1 = First Sentence, S2 = Second Sentence...)
+        3. Set how confident you feel that this category is present in the passage
+            and make any optional extra notes in the notes section below the passage. 
+        4. Click "Save and Next"
+
+        **Important Rules:**
+        - Multiple categories can be applied to the same sentece
+        - Select ALL the sentences where the category is present
+        - If there is an explicit philosophical arguement like "We do not have free will" check the 'explicit philosophy box'
+        - Must mark at least one sentence per category
+        - Must set confidence for each philosophical category
+        """)
+
+
 # Main logic for annotation interface -------------------------------------
 def show_annotation_interface():
     annotator = st.session_state.annotator
@@ -717,6 +738,7 @@ def show_annotation_interface():
         st.markdown(f'<div class="save-warning">Save to storage failed: queued for retry ({n} pending)</div>', unsafe_allow_html=True)
 
     st.markdown("")
+    show_tutorial_section()
 
     # Incomplete passages banner
     if st.session_state.get("incomplete_check_active"):

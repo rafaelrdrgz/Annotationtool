@@ -33,7 +33,7 @@
         {
           "id": "anti_reductionism",
           "name": "Anti-Reductionism",
-          "description": "Some phenomena (consciousness, meaning, intentionality, normativity, value) resist reduction to physical description. Dualism holds mind and body are fundamentally distinct kinds.",
+          "description": "Some phenomena (consciousness, meaning, intentionality, normativity, value) resist reduction to physical description. Indicates that mind and body are fundamentally distinct kinds.",
           "markers": ["transcends", "irreducible to", "cannot be explained by", "goes beyond", "inner life", "what it's like", "whole person", "human dignity beyond"]
         },
         {
@@ -53,7 +53,7 @@
           "id": "empiricism",
           "name": "Empiricism",
           "description": "Knowledge about the world comes entirely from sense experience. All justification must ultimately trace to evidence. Rejects innate knowledge.",
-          "markers": ["according to a study", "the data show", "no scientific evidence", "research tells us", "evidence-based", "measurable outcomes", "empirical support", "unproven"]
+          "markers": ["according to a study", "the data shows", "(no) scientific evidence for", "reduced by 15%", "evidence-based", "measurable outcomes", "empirical support", "unproven"]
         },
         {
           "id": "rationalism",
@@ -84,7 +84,7 @@
           "id": "deontology",
           "name": "Deontology",
           "description": "Certain actions are right or wrong regardless of consequences, based on conformity to moral rules, duties, or principles. What is 'Right' is prior to the 'Good'.",
-          "markers": ["right to", "inviolable", "inalienable", "violate", "entitlement", "always", "never", "regardless of consequences", "dignity", "autonomy", "consent"]
+          "markers": ["right to", "inviolable", "globally respected", "entitlement", "always", "never", "regardless of consequences", "dignity", "autonomy", "consent"]
         },
         {
           "id": "virtue_ethics",
